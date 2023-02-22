@@ -20,10 +20,6 @@
     - Edit the path in line 10, 11, and 22 to match your own file organization 
     - Run qiime2.slurm
       
-4. Normalization using SRS (scaling with ranked subsampling) method:
-        * First, download the amplicon sequence variant (ASV) or the operational taxonomic unit (OTU) found in the artifacts directory 'table.qza'. 
-        * Second, upload the 'table.qza' to the SRS Shiny app (https://vitorheidrich.shinyapps.io/srsshinyapp/) in order to choose a sampling depth (Cmin) or the normalization cut-off value.
-        * It is best to choose a Cmin which doesn’t result in eliminating so many samples.
-        * Once a Cmin value was chosen add it to line 7 in the 'normalized_srs.sh' script.
-        * Finally, run the 'bash normalized_srs.sh' from the 'qiime2' directory.
+4. Run LEfSe
+5. Plot using R 
 
