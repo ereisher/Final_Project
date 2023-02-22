@@ -17,26 +17,10 @@
     - Bulid the manifest file using 'manifest_builder.py' and specifiying -i SRR_Acc_List.txt -p path_to_the_raw_reads
     - Use Silva-138-99-nb-classifier as the reference database
     - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and silva database.
-    - Part 1 before running 'demux.slurm' check the following: 
-        * Edit the path in line 8, 9, and 20 to match your own file organization 
-        * If your data contains adapter sequnces removed them using cutadapt line 35-40 (make sure to change line 37, and 38 with your adapter sequnces) and comment out               lines 31-33.
-        * If your data dosen't contain adapter sequnces then comment out lines 35-44.
-        * Run sbatch demux.slurm
-    - Part 2 before running 'part2.slurm' check the following: 
-        * Edit the path in line 8, 9, and 28.
-        * In addition, look at the demux visulasation in the artifacts directory to assign trimming and truncating values.
-        * If adapter sequnces were removed, look at the 'paired-end-demux-trimmed.qzv'
-        * If no adapter sequnces were removed, look at the 'demux.qzv' and replace line 33 with '--i-demultiplexed-seqs artifacts/demuxed-paired-end.qza'.
-        * Assign values for the dada2 denoising step line 18-21.
-        * Make sure edit and check the file name of the reference database line 72.
-        * Finally, run the 'sbatch part2.slurm'
-    - Part 3 before running 'part3.slurm' check the following: 
-        * Edit the path in line 8, 9, and 15.
-        * Look at the Interactive Sample Detail for the 'table-viz.qzv' in the artifacts directory in order to assign sampling depth value.
-        * Once a sampling depth value was chosen add it to line 29.
-        * Make sure that there is no directory called 'core-metrics-results'.
-        * Finally, run the 'sbatch part3.slurm'
-    - Normalization using SRS (scaling with ranked subsampling) method:
+    - Edit the path in line 10, 11, and 22 to match your own file organization 
+    - Run qiime2.slurm
+      
+4. Normalization using SRS (scaling with ranked subsampling) method:
         * First, download the amplicon sequence variant (ASV) or the operational taxonomic unit (OTU) found in the artifacts directory 'table.qza'. 
         * Second, upload the 'table.qza' to the SRS Shiny app (https://vitorheidrich.shinyapps.io/srsshinyapp/) in order to choose a sampling depth (Cmin) or the normalization cut-off value.
         * It is best to choose a Cmin which doesn’t result in eliminating so many samples.
