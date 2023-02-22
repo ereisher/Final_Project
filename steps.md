@@ -1,4 +1,4 @@
-1. Get raw reads sequnces (fastq)-files can be found in the [Raw Reads folder]()
+1. Get raw reads sequnces (fastq)-files can be found in the [Raw Reads folder](https://github.com/ereisher/Final_Project/tree/main/rawreads)
     - Navigate to the SRA Run Selector (https://www.ncbi.nlm.nih.gov/Traces/study/)
     - Use this SRA BioProject ID as the accession number: PRJNA858302
     - Select all the samples and download the accession list and metadata for the samples
