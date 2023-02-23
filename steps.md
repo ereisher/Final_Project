@@ -17,8 +17,12 @@
     - Bulid the manifest file using 'manifest_builder.py' and specifiying -i SRR_Acc_List.txt -p path_to_the_raw_reads
     - Use Silva-138-99-nb-classifier as the reference database
     - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and silva database.
-    - Edit the path in line 10, 11, and 22 to match your own file organization 
-    - Run qiime2.slurm
+    - Edit the path in line 8, 9, and 20 to match your own file organization in demux.slurm
+    - Run demux.slurm
+    - Edit the path in line 8, 9, and 31 to match your own file organization in dada2.slurm
+    - Run dada2.slurm
+    - Edit the path in 8, 9, and 15 to match your own file organization in diversity.slurm
+    - Run diversity.slurm
       
 4. Run LEfSe
 5. Plot using R 
