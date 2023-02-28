@@ -13,7 +13,7 @@
     - Run qc.slurm
 
 3. Run Qiime2- files can be found in the [qiime2 folder](https://github.com/ereisher/Final_Project/tree/main/qiime2)
-    - Make a directory called 'qiime2' and make sure QIIME2 version 2022.2 is installed with all of the plugins listed in [Plugins]. 
+    - Make a directory called 'qiime2' and make sure QIIME2 version 2022.2 is installed with all of the plugins listed in [Plugins](https://github.com/ereisher/Final_Project/blob/main/plugins.md). 
     - Bulid the manifest file using 'manifest_builder.py' and specifiying -i SRR_Acc_List.txt -p path_to_the_raw_reads
     - Use Silva-138-99-nb-classifier as the reference database
     - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and silva database.
