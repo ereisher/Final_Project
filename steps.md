@@ -26,7 +26,8 @@
       
 4. Run LEfSe
     - Install LEfSe version 1.0
-    - Clean the header for visualization using 'header_clean.py'
+    - Make a sub-directory to 'qiime2' called 'lefse'.
+    - Make sure that 'format_rel_level.sh', 'rel_format.py' and 'header_clean.py' are included in the directory
     - Run 'format_rel_level.sh'
 6. Plot using R 
 
