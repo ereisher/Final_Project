@@ -31,6 +31,6 @@
     - Run 'format_rel_level.sh'
 6. Plot using R- files can be found in the [R folder](
     - Make a directory called 'R'
-    - Make sure the 'r_analysis.R', 
-    - 
+    - Make sure the 'r_analysis.R', 'table.qza', 'metadata.tsv', 'taxonomy.qza', adn 'rooted-tree.qza' files are available in the directory
+    - Run 'r_analysis.R'
 
