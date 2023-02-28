@@ -24,10 +24,13 @@
     - Edit the path in 8, 9, and 15 to match your own file organization in diversity.slurm
     - Run diversity.slurm
       
-4. Run LEfSe
+4. Run LEfSe- files can be found in the [LEfSe folder](https://github.com/ereisher/Final_Project/tree/main/LEfSe)
     - Install LEfSe version 1.0
     - Make a sub-directory to 'qiime2' called 'lefse'.
     - Make sure that 'format_rel_level.sh', 'rel_format.py' and 'header_clean.py' are included in the directory
     - Run 'format_rel_level.sh'
-6. Plot using R 
+6. Plot using R- files can be found in the [R folder](
+    - Make a directory called 'R'
+    - Make sure the 'r_analysis.R', 
+    - 
 
