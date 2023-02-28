@@ -29,7 +29,7 @@
     - Make a sub-directory to 'qiime2' called 'lefse'.
     - Make sure that 'format_rel_level.sh', 'rel_format.py' and 'header_clean.py' are included in the directory
     - Run 'format_rel_level.sh'
-6. Plot using R- files can be found in the [R folder](
+6. Plot using R- files can be found in the [R folder](https://github.com/ereisher/Final_Project/blob/main/R/r_analysis.R)
     - Make a directory called 'R'
     - Make sure the 'r_analysis.R', 'table.qza', 'metadata.tsv', 'taxonomy.qza', adn 'rooted-tree.qza' files are available in the directory
     - Run 'r_analysis.R'
