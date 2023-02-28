@@ -25,5 +25,8 @@
     - Run diversity.slurm
       
 4. Run LEfSe
-5. Plot using R 
+    - Install LEfSe version 1.0
+    - Clean the header for visualization using 'header_clean.py'
+    - Run 'format_rel_level.sh'
+6. Plot using R 
 
