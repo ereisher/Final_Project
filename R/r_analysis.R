@@ -38,33 +38,38 @@ filter_data$filter_taxa(rel_abund = 0.0001, freq = 0.1)
 backup <- clone(dataset)
 backup$taxa_sums
 
-# Calculate and plot diagrams for alpha & beta diversity & Phlyum abundance
+# Calculate and plot diagrams for alpha & beta diversity 
+# Shannon
 t1 <- trans_alpha$new(dataset = filter_data, group = "Abx")
 t1$cal_diff(method = "wilcox")
 t1$res_diff
 t1$plot_alpha(measure = "Shannon")
 
+# Simpson 
 t2 <- trans_alpha$new(dataset = filter_data, group = "Abx")
 t2$cal_diff(method = "wilcox")
 t2$res_diff
 t2$plot_alpha(measure = "Simpson")
 
+#Inverse Simpson
 t3 <- trans_alpha$new(dataset = filter_data, group = "Abx")
 t3$cal_diff(method = "wilcox")
 t3$res_diff
 t3$plot_alpha(measure = "InvSimpson")
 
+# Jaccard
 t4 <- trans_beta$new(dataset = filter_data, group = "Abx", measure = "jaccard")
 t4$cal_manova(manova_all = TRUE)
 t4$cal_ordination(ordination = "PCoA")
 t4$plot_ordination(plot_color = "Abx", plot_shape = "Abx", plot_type = c("point", "ellipse"))
 
-
+# Unweighted Unifrac
 t5 <- trans_beta$new(dataset = filter_data, group = "Abx", measure = "unwei_unifrac")
 t5$cal_manova(manova_all = TRUE)
 t5$cal_ordination(ordination = "PCoA")
 t5$plot_ordination(plot_color = "Abx", plot_shape = "Abx", plot_type = c("point", "ellipse"))
 
+# Calculate and plot Phylum abundance
 t6 <- trans_abund$new(dataset = filter_data, taxrank = "Phylum", ntaxa = 10, groupmean = "Abx")
 g6 <- t6$plot_bar(others_color = "grey70", legend_text_italic = FALSE)
 g6 + theme_classic() + theme(axis.title.y = element_text(size = 18))
