@@ -27,11 +27,8 @@ qiime tools import \
 	--input-path manifest \
 	--input-format PairedEndFastqManifestPhred33V2 \
 	--output-path artifacts/demuxed-paired-end.qza
-
-#qiime demux summarize \
-#	--i-data artifacts/demuxed-paired-end.qza \
-#	--o-visualization artifacts/demux.qzv
 	
+# Run cutadapt
 qiime cutadapt trim-paired \
     --i-demultiplexed-sequences artifacts/demuxed-paired-end.qza \
     --p-front-f GTGCCAGC MGCCGCGGTAA \
