@@ -11,11 +11,9 @@
     - taxa filter-table (https://docs.qiime2.org/2022.2/plugins/available/taxa/filter-table/)
     - taxa barplot (https://docs.qiime2.org/2022.2/plugins/available/taxa/barplot/)
     - diversity core-metrics-phylogenetic (https://docs.qiime2.org/2022.2/plugins/available/diversity/core-metrics-phylogenetic/)
+    - diversity alpha (https://docs.qiime2.org/2023.2/plugins/available/diversity/alpha/)
     - diversity pcoa (https://docs.qiime2.org/2022.2/plugins/available/diversity/pcoa/)
     - taxa collapse (https://docs.qiime2.org/2022.2/plugins/available/taxa/collapse/)
     - feature-table relative-frequency (https://docs.qiime2.org/2022.2/plugins/available/feature-table/relative-frequency/)
-    - srs SRS (https://library.qiime2.org/plugins/q2-srs/31/)
-    - diversity alpha-group-significance (https://docs.qiime2.org/2022.2/plugins/available/diversity/alpha-group-significance/)
-    - diversity beta-group-significance (https://docs.qiime2.org/2022.2/plugins/available/diversity/beta-group-significance/)
-    - composition add-pseudocount (https://docs.qiime2.org/2022.2/plugins/available/composition/add-pseudocount/)
-    - composition ancom (https://docs.qiime2.org/2022.2/plugins/available/composition/ancom/)
+
+ 
