@@ -6,4 +6,4 @@ Li, J. K. M., Wang, L. L., Lau, B. S. Y., Tse, R. T. H., Cheng, C. K. L., Leung,
 All code developed is my own. 
 
 ## The project follows the following pipeline: 
-![pipeline-overview](https://github.com/ereisher/Final_Project/blob/main/pipeline.png)
+![pipeline-overview](https://github.com/ereisher/Final_Project/blob/main/pipeline(1).png)
