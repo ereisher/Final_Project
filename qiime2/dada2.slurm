@@ -5,8 +5,8 @@
 #SBATCH --time=24:00:00
 #SBATCH --job-name=analysis_part2
 #SBATCH --partition=batch,guest
-#SBATCH --error=/home/claytonlab/ereisher/final_proj_backup/qiime2/err2.out
-#SBATCH --output=/home/claytonlab/ereisher/final_proj_backup/qiime2/std2.out
+#SBATCH --error=/home/claytonlab/ereisher/final_project/qiime2/err2.out
+#SBATCH --output=/home/claytonlab/ereisher/final_project/qiime2/std2.out
 #SBATCH --open-mode=append
 
 
@@ -28,7 +28,7 @@ n_threads=16
 
 module load qiime2/2022.2
 
-cd /home/claytonlab/ereisher/final_proj_backup/qiime2
+cd /home/claytonlab/ereisher/final_project/qiime2
 
 echo "Starting dada2: `date`"
 
