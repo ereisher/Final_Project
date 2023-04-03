@@ -19,9 +19,11 @@ module load qiime2/2022.2
 
 cd /home/claytonlab/ereisher/final_project/qiime2
 
+# Make directories to store results
 mkdir -p artifacts
 mkdir -p exports
 
+# Import data into QIIME2
 qiime tools import \
 	--type 'SampleData[PairedEndSequencesWithQuality]' \
 	--input-path manifest \
