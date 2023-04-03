@@ -5,14 +5,14 @@
 #SBATCH --time=12:00:00
 #SBATCH --job-name=analysis_part3
 #SBATCH --partition=batch,guest
-#SBATCH --error=/home/claytonlab/ereisher/final_proj_backup/qiime2/err3.out
-#SBATCH --output=/home/claytonlab/ereisher/final_proj_backup/qiime2/std3.out
+#SBATCH --error=/home/claytonlab/ereisher/final_project/qiime2/err3.out
+#SBATCH --output=/home/claytonlab/ereisher/final_project/qiime2/std3.out
 #SBATCH --open-mode=append
 
 
 module load qiime2/2022.2
 
-cd /home/claytonlab/ereisher/final_proj_backup/qiime2
+cd /home/claytonlab/ereisher/final_project/qiime2
 
 ############################################
 # Declare local variables
