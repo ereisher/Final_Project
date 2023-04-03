@@ -32,6 +32,7 @@ cd /home/claytonlab/ereisher/final_project/qiime2
 
 echo "Starting dada2: `date`"
 
+# Run dada2 to denoise samples
 qiime dada2 denoise-paired \
 	--i-demultiplexed-seqs artifacts/demuxed-paired-end.qza \
 	--p-trunc-len-f $p_trunc_len_f \
@@ -47,6 +48,7 @@ qiime metadata tabulate \
        --m-input-file artifacts/denoising-stats.qza \
         --o-visualization artifacts/denoising-stats-viz.qzv
 
+# Filter and summarize resulting feature table
 qiime feature-table filter-samples \
     --i-table artifacts/table.qza \
     --m-metadata-file metadata.tsv \
@@ -64,6 +66,7 @@ qiime feature-table tabulate-seqs \
         
 echo "`date` - Starting mafft fasttree and diversity operations"
 
+# Obtain tree and taxonomy results
 qiime phylogeny align-to-tree-mafft-fasttree \
         --i-sequences artifacts/rep-seqs.qza \
         --o-alignment artifacts/aligned-rep-seqs.qza \
@@ -80,13 +83,14 @@ qiime metadata tabulate \
         --m-input-file artifacts/taxonomy.qza \
         --o-visualization artifacts/taxonomy.qzv
 
-# filter out eukarya and archaea
+# Filter out eukarya and archaea
 qiime taxa filter-table \
     --i-table artifacts/table.qza \
     --i-taxonomy artifacts/taxonomy.qza \
     --p-exclude k_Eukaryota,k_Archaea,chloroplast \
     --o-filtered-table artifacts/table.qza
 
+# Generate taxa barplot for visualization 
 qiime taxa barplot \
     --i-table artifacts/table.qza \
     --i-taxonomy artifacts/taxonomy.qza \
