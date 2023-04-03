@@ -31,7 +31,7 @@ qiime diversity core-metrics-phylogenetic \
     --m-metadata-file metadata.tsv \
     --output-dir core-metrics-results
 
-# Collect remaining diversity metrics 
+# Collect remaining diversity metrics as stated in paper
 qiime diversity alpha \
     --i-table artifacts/table.qza \
     --p-metric dominance \
@@ -42,7 +42,7 @@ qiime diversity alpha \
     --p-metric simpson \
     --output-dir simpson-results
     
-# pcoa plots
+# Generate pcoa plots
 qiime diversity pcoa \
        --i-distance-matrix core-metrics-results/unweighted_unifrac_distance_matrix.qza \
        --p-number-of-dimensions 2 \
