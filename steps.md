@@ -5,14 +5,7 @@
     - Name the downloaded accession list file 'SRR_Acc_List.txt' and leave one new line in the end of the file. 
     - Run 'bash get_fastq.sh' in the directory you wish to get the sequnces.
 
-2. Pre-process the data using FastQC and MultiQC- files can be found in the [Pre-Process folder](https://github.com/ereisher/Final_Project/tree/main/Pre-Process)
-    - Run 'bash get_sample_name_dic.sh > sample_dic.txt' to get the sample list in the format where each accession number separated by space
-    - Copy sample_dic.txt file to qc.slurm for the 'sample_name' variable 
-    - Make a directory called 'qc' and make a sub-directory called 'script_output'
-    - Edit the paths in line 8, 9, and 20 to match your own file organization 
-    - Run qc.slurm
-
-3. Run Qiime2- files can be found in the [qiime2 folder](https://github.com/ereisher/Final_Project/tree/main/qiime2)
+2. Run Qiime2- files can be found in the [qiime2 folder](https://github.com/ereisher/Final_Project/tree/main/qiime2)
     - Make a directory called 'qiime2' and make sure QIIME2 version 2022.2 is installed with all of the plugins listed in [Plugins](https://github.com/ereisher/Final_Project/blob/main/plugins.md). 
     - Bulid the manifest file using 'manifest_builder.py' and specifiying -i SRR_Acc_List.txt -p path_to_the_raw_reads
     - Use Silva-138-99-nb-classifier as the reference database
@@ -24,12 +17,12 @@
     - Edit the path in 8, 9, and 15 to match your own file organization in diversity.slurm
     - Run diversity.slurm
       
-4. Run LEfSe- files can be found in the [LEfSe folder](https://github.com/ereisher/Final_Project/tree/main/LEfSe)
+3. Run LEfSe- files can be found in the [LEfSe folder](https://github.com/ereisher/Final_Project/tree/main/LEfSe)
     - Install LEfSe version 1.0
     - Make a sub-directory to 'qiime2' called 'lefse'.
     - Make sure that 'format_rel_level.sh', 'rel_format.py' and 'header_clean.py' are included in the directory
     - Run 'format_rel_level.sh'
-6. Plot using R- files can be found in the [R folder](https://github.com/ereisher/Final_Project/blob/main/R/r_analysis.R)
+4. Plot using R- files can be found in the [R folder](https://github.com/ereisher/Final_Project/blob/main/R/r_analysis.R)
     - Make a directory called 'R'
     - Make sure the 'r_analysis.R', 'table.qza', 'metadata.tsv', 'taxonomy.qza', adn 'rooted-tree.qza' files are available in the directory
     - Run 'r_analysis.R'
