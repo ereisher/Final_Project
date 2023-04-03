@@ -78,7 +78,6 @@ for file in core-metrics-results/*; do
 done
 
 # Prepare file for Lefse analysis at genus level
-
 declare -a taxa_levels=("6")
 qza=".qza"
 
