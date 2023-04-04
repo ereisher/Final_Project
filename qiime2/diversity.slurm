@@ -31,7 +31,7 @@ qiime diversity core-metrics-phylogenetic \
     --m-metadata-file metadata.tsv \
     --output-dir core-metrics-results
 
-# Collect remaining diversity metrics as stated in paper
+# Collect remaining diversity metrics as stated in paper (dominance and simpson)
 qiime diversity alpha \
     --i-table artifacts/table.qza \
     --p-metric dominance \
@@ -42,7 +42,7 @@ qiime diversity alpha \
     --p-metric simpson \
     --output-dir simpson-results
     
-# Generate pcoa plots
+# Generate pcoa plots (unweighted unifrac and jaccard)
 qiime diversity pcoa \
        --i-distance-matrix core-metrics-results/unweighted_unifrac_distance_matrix.qza \
        --p-number-of-dimensions 2 \
@@ -52,30 +52,6 @@ qiime diversity pcoa \
         --i-distance-matrix core-metrics-results/jaccard_distance_matrix.qza \
         --p-number-of-dimensions 2 \
         --o-pcoa artifacts/jaccard-pcoa-matrix.qza
-
-
-# Export only files that are less than 100M
-for file in artifacts/*; do
-    output_path=$(echo $file | sed -E 's#^.*/(.*)\.qz[av]$#exports/\1#')
-	size=$(du -s $file | sed -E 's#^(.*)\s.*$#\1#')
-	if [[ !( -e $output_path )  &&  $( echo "$size<100000" | bc  -l ) == 1 ]]
-        then
-                qiime tools export \
-                        --input-path $file \
-                        --output-path $output_path
-        fi
-done
-
-for file in core-metrics-results/*; do
-    output_path=$(echo $file | sed -E 's#^.*/(.*)\.qz[av]$#exports/\1#')
-    size=$(du -s $file | sed -E 's#^(.*)\s.*$#\1#')
-    if [[ !( -e $output_path )  &&  $( echo "$size<100000" | bc  -l ) == 1 ]]
-        then
-                qiime tools export \
-                        --input-path $file \
-                        --output-path $output_path
-        fi
-done
 
 # Prepare file for Lefse analysis at genus level
 declare -a taxa_levels=("6")
