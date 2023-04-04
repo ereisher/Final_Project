@@ -1,3 +1,7 @@
+# Set working directory to the place which have:
+# 'metadata.tsv', 'table.qza', 'taxonomy.qza', 'rooted-tree.qza'
+setwd("~/Downloads/final_project")
+
 # Install and load necessary packages 
 install.packages("microeco")
 install.packages("tidyverse")
