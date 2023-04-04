@@ -38,6 +38,3 @@ qiime cutadapt trim-paired \
     --o-trimmed-sequences artifacts/paired-end-demux-trimmed.qza \
     --verbose > cutadapt_log.txt \
 
-qiime demux summarize \
-    --i-data artifacts/paired-end-demux-trimmed.qza \
-	--o-visualization artifacts/paired-end-demux-trimmed.qzv
