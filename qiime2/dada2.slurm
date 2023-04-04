@@ -5,8 +5,8 @@
 #SBATCH --time=24:00:00
 #SBATCH --job-name=analysis_part2
 #SBATCH --partition=batch,guest
-#SBATCH --error=/home/claytonlab/ereisher/final_project/qiime2/err2.out
-#SBATCH --output=/home/claytonlab/ereisher/final_project/qiime2/std2.out
+#SBATCH --error=/home/claytonlab/ereisher/fp/qiime2/err2.out
+#SBATCH --output=/home/claytonlab/ereisher/fp/qiime2/std2.out
 #SBATCH --open-mode=append
 
 
@@ -28,7 +28,7 @@ n_threads=16
 
 module load qiime2/2022.2
 
-cd /home/claytonlab/ereisher/final_project/qiime2
+cd /home/claytonlab/ereisher/fp/qiime2
 
 echo "Starting dada2: `date`"
 
@@ -44,11 +44,7 @@ qiime dada2 denoise-paired \
 
 echo "dada2 complete: `date`"
 
-qiime metadata tabulate \
-       --m-input-file artifacts/denoising-stats.qza \
-        --o-visualization artifacts/denoising-stats-viz.qzv
-
-# Filter and summarize resulting feature table
+# Filter and summarize resulting feature table for viewing
 qiime feature-table filter-samples \
     --i-table artifacts/table.qza \
     --m-metadata-file metadata.tsv \
@@ -58,10 +54,6 @@ qiime feature-table summarize \
         --i-table artifacts/table.qza \
         --o-visualization artifacts/table-viz.qzv \
         --m-sample-metadata-file metadata.tsv
-
-qiime feature-table tabulate-seqs \
-        --i-data artifacts/rep-seqs.qza \
-        --o-visualization artifacts/rep-seqs.qzv
         
         
 echo "`date` - Starting mafft fasttree and diversity operations"
@@ -79,20 +71,9 @@ qiime feature-classifier classify-sklearn \
         --i-reads artifacts/rep-seqs.qza \
         --o-classification artifacts/taxonomy.qza
 
-qiime metadata tabulate \
-        --m-input-file artifacts/taxonomy.qza \
-        --o-visualization artifacts/taxonomy.qzv
-
 # Filter out eukarya and archaea
 qiime taxa filter-table \
     --i-table artifacts/table.qza \
     --i-taxonomy artifacts/taxonomy.qza \
     --p-exclude k_Eukaryota,k_Archaea,chloroplast \
     --o-filtered-table artifacts/table.qza
-
-# Generate taxa barplot for visualization 
-qiime taxa barplot \
-    --i-table artifacts/table.qza \
-    --i-taxonomy artifacts/taxonomy.qza \
-    --m-metadata-file metadata.tsv \
-    --o-visualization artifacts/taxa-bar-plots.qzv
