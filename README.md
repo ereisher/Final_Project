@@ -7,3 +7,5 @@ All code developed is my own.
 
 ## The project follows the following pipeline: 
 ![pipeline-overview](https://github.com/ereisher/Final_Project/blob/main/pipeline(1).png)
+
+### This repository uses the MIT License 
