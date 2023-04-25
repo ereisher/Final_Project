@@ -9,4 +9,5 @@ All code developed is my own.
 ![pipeline-overview](https://github.com/ereisher/Final_Project/blob/main/pipeline(1).png)
 
 Detailed steps can be found in the [Steps File](https://github.com/ereisher/Final_Project/blob/main/steps.md)
+
 This repository uses the MIT License 
