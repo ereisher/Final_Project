@@ -9,6 +9,14 @@ No code for this project was developed by the authors of this paper.
 ## Purpose:
 The purpose of this project was to test the reproducibility of a published gut microbiome study by developing code and generating results based on the information provided in the paper. This project aims to discover best practices of reproducilbility by reproducing methods and results as presented in the paper. In this project, I was able to develop a pipeline to generate similar results to those presented in the paper as well as generate "10 Simple Rules for Reproducible Research" from lessons learned and challenges encountered during this project.  
 
+## Project Objectives: 
+1. Reproduce methodology and results presented in a paper that studied the disruption of gut microbiome due to oral antibiotics in patients post prostate biopsy.
+* Deliverable- Pipeline for analysis consisting of slurm files, python files, and a R file to run the pipeline and visualize results. 
+2. Create a Github repository for the project.
+* Deliverable- A fully functional and readable Github for the project. 
+3. Determine best practices for ensuring projects can be reproduced via delivering a write-up post project. 
+* Paper discussing best practices based on challenges I encounted a long the way and potential requirements to ensure that projects are reproducible.
+
 ## Background:
 
 ## Project Components:
