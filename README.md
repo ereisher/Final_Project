@@ -24,7 +24,7 @@ The purpose of this project was to test the reproducibility of a published gut m
  - All QIIME2, LEfSe, and sequence obtaining scripts are bash and reproducible across datasets
 2. Python script for data analysis or visualization
  - Python script developed to visualize the title the same as the paper
- -R scripts developed for data visualization
+ - R scripts developed for data visualization
 
 ## Users:
 I would anticipate individuals who are looking to conduct simple microbiome analysis to use this project. I would also anticipate individuals who wanted to generate R plots from QIIME2 files to utilize the R script for the visualization.
