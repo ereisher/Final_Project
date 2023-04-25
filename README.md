@@ -20,9 +20,9 @@ The purpose of this project was to test the reproducibility of a published gut m
 ## Background:
 
 ## Project Components:
-- A reproducible bash shell script
+1. A reproducible bash shell script
  - All QIIME2, LEfSe, and sequence obtaining scripts are bash and reproducible across datasets
-- Python script for data analysis or visualization
+2. Python script for data analysis or visualization
  - Python script developed to visualize the title the same as the paper
  -R scripts developed for data visualization
 
