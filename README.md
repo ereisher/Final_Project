@@ -11,20 +11,20 @@ The purpose of this project was to test the reproducibility of a published gut m
 
 ## Project Objectives: 
 1. Reproduce methodology and results presented in a paper that studied the disruption of gut microbiome due to oral antibiotics in patients post prostate biopsy.
-  *Deliverable- Pipeline for analysis consisting of slurm files, python files, and a R file to run the pipeline and visualize results. 
+ Deliverable- Pipeline for analysis consisting of slurm files, python files, and a R file to run the pipeline and visualize results. 
 2. Create a Github repository for the project.
-  *Deliverable- A fully functional and readable Github for the project. 
+ Deliverable- A fully functional and readable Github for the project. 
 3. Determine best practices for ensuring projects can be reproduced via delivering a write-up post project. 
-  *Deliverable- Paper discussing best practices based on challenges I encounted a long the way and potential requirements to ensure that projects are reproducible.
+ Deliverable- Paper discussing best practices based on challenges I encounted a long the way and potential requirements to ensure that projects are reproducible.
 
 ## Background:
 
 ## Project Components:
 - A reproducible bash shell script
-  *All QIIME2, LEfSe, and sequence obtaining scripts are bash and reproducible across datasets
+  All QIIME2, LEfSe, and sequence obtaining scripts are bash and reproducible across datasets
 - Python script for data analysis or visualization
-  *Python script developed to visualize the title the same as the paper
-  *R scripts developed for data visualization
+  Python script developed to visualize the title the same as the paper
+  R scripts developed for data visualization
 
 ## Users:
 I would anticipate individuals who are looking to conduct simple microbiome analysis to use this project. I would also anticipate individuals who wanted to generate R plots from QIIME2 files to utilize the R script for the visualization.
