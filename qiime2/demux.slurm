@@ -5,19 +5,19 @@
 #SBATCH --time=12:00:00
 #SBATCH --job-name=analysis_part1
 #SBATCH --partition=batch,guest
-#SBATCH --error=/home/claytonlab/ereisher/final_project/qiime2/err.out
-#SBATCH --output=/home/claytonlab/ereisher/final_project/qiime2/std.out
+#SBATCH --error=/qiime2/err.out
+#SBATCH --output=/qiime2/std.out
 #SBATCH --open-mode=append
 
 ##########################################################################
-# Importe the data into QIIME2 then summarize it using demux
-# Trim adapter sequnces using cutadapt then summarize it using demux
+# Import the data into QIIME2 
+# Trim adapter sequences using cutadapt 
 ##########################################################################
 
 
 module load qiime2/2022.2
 
-cd /home/claytonlab/ereisher/final_project/qiime2
+cd /qiime2
 
 # Make directories to store results
 mkdir -p artifacts
