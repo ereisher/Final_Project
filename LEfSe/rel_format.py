@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Do the imports
+# Import modules
 import re
 import sys
 import getopt
