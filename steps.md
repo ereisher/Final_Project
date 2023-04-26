@@ -1,13 +1,11 @@
-1. Get raw reads sequnces (fastq)-files can be found in the [Raw Reads folder](https://github.com/ereisher/Final_Project/tree/main/rawreads)
-    - Navigate to the SRA Run Selector (https://www.ncbi.nlm.nih.gov/Traces/study/)
+1. Get samples for analysis
     - Use this SRA BioProject ID as the accession number: PRJNA858302
     - Select all the samples and download the accession list and metadata for the samples
-    - Name the downloaded accession list file 'SRR_Acc_List.txt' and leave one new line in the end of the file. 
-    - Run 'bash get_fastq.sh' in the directory you wish to get the sequnces.
+    - Download sequences to workspace
 
 2. Run Qiime2- files can be found in the [qiime2 folder](https://github.com/ereisher/Final_Project/tree/main/qiime2)
     - Make a directory called 'qiime2' and make sure QIIME2 version 2022.2 is installed with all of the plugins listed in [Plugins](https://github.com/ereisher/Final_Project/blob/main/plugins.md). 
-    - Bulid the manifest file using 'manifest_builder.py' and specifiying -i SRR_Acc_List.txt -p path_to_the_raw_reads
+    - Bulid the manifest file (sample format is provided)
     - Use Silva-138-99-nb-classifier as the reference database
     - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and silva database.
     - Run demux.slurm
