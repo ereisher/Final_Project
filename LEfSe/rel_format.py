@@ -15,7 +15,7 @@ def main():
         opts, args = getopt.getopt(sys.argv[1:], "i:r:o:")
     except getopt.GetoptError as err:
         
-        # Redirect STDERR to STDOUT (insures screen display)
+        # Redirect STDERR to STDOUT (ensures screen display)
         sys.stdout = sys.stderr
 
         # Print help information
@@ -39,7 +39,7 @@ def main():
         if opt == "-o":
             rel_level_file_formated = str(arg)
     
-    
+    # Begin format change to run LEfSe
     sample_dic = {}
     with open(acc_list_file) as a:
         line = a.readline()
@@ -57,7 +57,6 @@ def main():
     line = fileIn.readline()
 
     while (line):
-        
         if str(line).startswith('#OTU'):
             sample_id = ""
             sample_type = ""
