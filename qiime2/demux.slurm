@@ -1,19 +1,11 @@
 #!/bin/bash
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --mem=64000
-#SBATCH --time=12:00:00
-#SBATCH --job-name=analysis_part1
-#SBATCH --partition=batch,guest
 #SBATCH --error=/qiime2/err.out
 #SBATCH --output=/qiime2/std.out
-#SBATCH --open-mode=append
 
 ##########################################################################
 # Import the data into QIIME2 
 # Trim adapter sequences using cutadapt 
 ##########################################################################
-
 
 module load qiime2/2022.2
 
