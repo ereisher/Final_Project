@@ -1,14 +1,6 @@
 #!/bin/bash
-#SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --mem=64000
-#SBATCH --time=12:00:00
-#SBATCH --job-name=analysis_part3
-#SBATCH --partition=batch,guest
 #SBATCH --error=/qiime2/err3.out
 #SBATCH --output=/qiime2/std3.out
-#SBATCH --open-mode=append
-
 
 module load qiime2/2022.2
 
@@ -21,7 +13,6 @@ cd /qiime2
 # For diversity core-metrics-phylogenetic, the value was determined from 
 # what was provided in the paper
 p_sampling_depth=29000
-
 
 # Collect core diversity metrics
 qiime diversity core-metrics-phylogenetic \
