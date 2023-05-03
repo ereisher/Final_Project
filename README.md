@@ -41,10 +41,10 @@ Detailed steps can be found in the [Steps File](https://github.com/ereisher/Fina
 
 This repository uses the MIT License 
 ### References:
--Baker, M. (2016). Why scientists must share their research code. Nature. https://doi.org/10.1038/nature.2016.20504
--FAIR Principles. (n.d.). GO FAIR. Retrieved April 27, 2023, from https://www.go-fair.org/fair-principles/
--Pineau, J., Vincent-Lamarre, P., Sinha, K., Larivière, V., Beygelzimer, A., d’Alché-Buc, F., Fox, E., & Larochelle, H. (2021). Improving reproducibility in machine learning research (a report from the NeurIPS 2019 reproducibility program). The Journal of Machine Learning Research, 22(1), 164:7459-164:7478.
--Plain Language. (n.d.). National Institutes of Health (NIH). Retrieved May 3, 2023, from https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language
--Sabot, F. (2022). On the importance of metadata when sharing and opening data. BMC Genomic Data, 23(1), 79. https://doi.org/10.1186/s12863-022-01095-1
--Yang, B., Liping, Z., & Fengrong, Z. (2019). A Survey on Research of Code Comment. Proceedings of the 2019 3rd International Conference on Management Engineering, Software Engineering and Service Sciences, 45–51. https://doi.org/10.1145/3312662.3312710
+- Baker, M. (2016). Why scientists must share their research code. Nature. https://doi.org/10.1038/nature.2016.20504
+- FAIR Principles. (n.d.). GO FAIR. Retrieved April 27, 2023, from https://www.go-fair.org/fair-principles/
+- Pineau, J., Vincent-Lamarre, P., Sinha, K., Larivière, V., Beygelzimer, A., d’Alché-Buc, F., Fox, E., & Larochelle, H. (2021). Improving reproducibility in machine learning research (a report from the NeurIPS 2019 reproducibility program). The Journal of Machine Learning Research, 22(1), 164:7459-164:7478.
+- Plain Language. (n.d.). National Institutes of Health (NIH). Retrieved May 3, 2023, from https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language
+- Sabot, F. (2022). On the importance of metadata when sharing and opening data. BMC Genomic Data, 23(1), 79. https://doi.org/10.1186/s12863-022-01095-1
+- Yang, B., Liping, Z., & Fengrong, Z. (2019). A Survey on Research of Code Comment. Proceedings of the 2019 3rd International Conference on Management Engineering, Software Engineering and Service Sciences, 45–51. https://doi.org/10.1145/3312662.3312710
 
