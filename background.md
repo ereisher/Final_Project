@@ -20,6 +20,6 @@ This leads to a need for reproducible research to occur.
 ## Motivation
 The motivation for this project was to test if I was able to reproduce another's work and identify ways to help solve the Reproducibility Crisis. 
 ## Significance 
-This project is needed because reproducibility in science is necessary for validation, collaboration, and results that can benefit the population. Scientific results can lead to the advancement of health, directly impacting everyone. 
+This project is needed because reproducibility in science is necessary for validation, collaboration, and results that can benefit the population. Scientific results can lead to the advancement of health, directly impacting everyone. It is important to be able to reproduce results from studies to ensure appropriate dissemination of results. 
 ## Novelty
-There are reproducbility studies that exist, however, to my knowledge there is not one done on this paper nor one that presented ideas on how to make research more reproducible based on the experience. 
+There are reproducbility studies that exist, however, to my knowledge there is not one done on this paper nor one that presented ideas on how to make research more reproducible based on their experience. 
