@@ -43,10 +43,18 @@ Detailed steps can be found in the [Steps File](https://github.com/ereisher/Fina
 
 This repository uses the MIT License 
 ### References:
+- Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), Article 7604. https://doi.org/10.1038/533452a
 - Baker, M. (2016). Why scientists must share their research code. Nature. https://doi.org/10.1038/nature.2016.20504
+- Bolyen, E., Rideout, J. R., Dillon, M. R., Bokulich, N. A., Abnet, C. C., Al-Ghalith, G. A., Alexander, H., Alm, E. J., Arumugam, M., Asnicar, F., Bai, Y., Bisanz, J. E., Bittinger, K., Brejnrod, A., Brislawn, C. J., Brown, C. T., Callahan, B. J., Caraballo-Rodríguez, A. M., Chase, J., … Caporaso, J. G. (2019). Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nature Biotechnology, 37(8), 852–857. https://doi.org/10.1038/s41587-019-0209-9
+- Diaba-Nuhoho, P., Amponsah-Offeh, M. Reproducibility and research integrity: the role of scientists and institutions. BMC Res Notes 14, 451 (2021). https://doi.org/10.1186/s13104-021-05875-3
 - FAIR Principles. (n.d.). GO FAIR. Retrieved April 27, 2023, from https://www.go-fair.org/fair-principles/
+- Li, J. K. M., Wang, L. L., Lau, B. S. Y., Tse, R. T. H., Cheng, C. K. L., Leung, S. C. H., Wong, C. Y. P., Tsui, S. K. W., Teoh, J. Y. C., Chiu, P. K. F., & Ng, C. F. (2022). Oral antibiotics perturbation on gut microbiota after prostate biopsy. Frontiers in cellular and infection microbiology, 12, 959903. https://doi.org/10.3389/fcimb.2022.959903​
+- Li, C. L., Felipe R. P. Mansoldo, Umer Zeeshan Ijaz, Chenhao Li, Yang Cao, Jarrod J. Scott, Yaoming Cui, Alane B. Vermelho, Minjie Yao, Xiangzhen. (n.d.). Tutorial for R microeco package (v0.17.0). Retrieved May 3, 2023, from https://chiliubio.github.io/microeco_tutorial/index.html​
+- National Academies of Sciences, E., Affairs, P. and G., Committee on Science, E., Information, B. on R. D. and, Sciences, D. on E. and P., Statistics, C. on A. and T., Analytics, B. on M. S. and, Studies, D. on E. and L., Board, N. and R. S., Education, D. of B. and S. S. and, Statistics, C. on N., Board on Behavioral, C., & Science, C. on R. and R. in. (2019). Understanding Reproducibility and Replicability. In Reproducibility and Replicability in Science. National Academies Press (US). https://www.ncbi.nlm.nih.gov/books/NBK547546/
 - Pineau, J., Vincent-Lamarre, P., Sinha, K., Larivière, V., Beygelzimer, A., d’Alché-Buc, F., Fox, E., & Larochelle, H. (2021). Improving reproducibility in machine learning research (a report from the NeurIPS 2019 reproducibility program). The Journal of Machine Learning Research, 22(1), 164:7459-164:7478.
 - Plain Language. (n.d.). National Institutes of Health (NIH). Retrieved May 3, 2023, from https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/clear-communication/plain-language
 - Sabot, F. (2022). On the importance of metadata when sharing and opening data. BMC Genomic Data, 23(1), 79. https://doi.org/10.1186/s12863-022-01095-1
+- Segata, N., Izard, J., Waldron, L., Gevers, D., Miropolsky, L., Garrett, W. S., & Huttenhower, C. (2011). Metagenomic biomarker discovery and explanation. Genome Biology, 12(6), R60. https://doi.org/10.1186/gb-2011-12-6-r60​
+- Six factors affecting reproducibility in life science research and how to handle them. (n.d.). Retrieved May 3, 2023, from https://www.nature.com/articles/d42473-019-00004-y
 - Yang, B., Liping, Z., & Fengrong, Z. (2019). A Survey on Research of Code Comment. Proceedings of the 2019 3rd International Conference on Management Engineering, Software Engineering and Service Sciences, 45–51. https://doi.org/10.1145/3312662.3312710
 
