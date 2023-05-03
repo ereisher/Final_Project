@@ -25,7 +25,8 @@ The purpose of this project was to test the reproducibility of a published gut m
 2. Python script for data analysis or visualization
  - Python script developed to visualize the title the same as the paper
  - R scripts developed for data visualization
-3. 10 Simple Rules for Conducting Reproducible Research
+3. 10 Simple Rules for Conducting Reproducible Research 
+ - [Available Here](https://github.com/ereisher/Final_Project/blob/main/10%20Simple%20Rules%20for%20Conducting%20Reproducible%20Research.docx)
 
 ## Users:
 I would anticipate individuals who are looking to conduct simple microbiome analysis to use this project. I would also anticipate individuals who wanted to generate R plots from QIIME2 files to utilize the R script for the visualization.
