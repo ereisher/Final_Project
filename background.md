@@ -2,8 +2,8 @@
 ## Project Background Knowledge
 ### Reproducibility and Replicability
 It is important to understand the difference between reproducibility and replicability 
-- Reproducibility- “is obtaining consistent results using the same input data; computational steps, methods, and code; and conditions of analysis” (National Academies of Sciences et al., 2019). ​
-- Replicability- “is obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data.” National Academies of Sciences et al., 2019). ​
+- Reproducibility- “is obtaining consistent results using the same input data; computational steps, methods, and code; and conditions of analysis” (National Academies of Sciences et al., 2019). 
+- Replicability- “is obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data.” National Academies of Sciences et al., 2019). 
 - Reproducibility and replicability in research are fundamental to the success of a research project (Diaba-Nuhoho et al., 2021). ​
 Providing the necessary documentation for a project can ensure reproducibility
 ### The Reproducibility Crisis 
@@ -11,7 +11,7 @@ A 2016 survey conducted by Nature noted (Baker, 2016):
 - More than 70% of researchers tried and were unable to reproduce another's work
 - More than 50% failed to reproduce their own
 This leads to a need for reproducible research to occur. 
-### Paper Summary 
+### Paper Summary (Li et al., 2021)
 - The paper indicated that using antibiotics may change the gut microbiome and aimed to learn whether or not the gut microbiome can be recovered post use. ​
 - The researchers aimed to determine if the gut microbiome could be recovered after one dose of oral co-amoxiclav before a prostate biopsy in a 5-week time period. ​
 - The researchers recruited 15 patients and provided pre and post antibiotic fecal samples. The V4 region of 16srRNA was sequenced. ​
