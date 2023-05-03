@@ -18,6 +18,7 @@ The purpose of this project was to test the reproducibility of a published gut m
  - Deliverable- Paper discussing best practices based on challenges I encounted a long the way and potential requirements to ensure that projects are reproducible.
 
 ## Background:
+Project backgroud can be found [here](https://github.com/ereisher/Final_Project/blob/main/background.md)
 
 ## Project Components:
 1. A reproducible bash shell script
