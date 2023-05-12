@@ -3,8 +3,10 @@ This reproducibility project utilizes a publicly available dataset to reproduce 
 
 Li, J. K. M., Wang, L. L., Lau, B. S. Y., Tse, R. T. H., Cheng, C. K. L., Leung, S. C. H., Wong, C. Y. P., Tsui, S. K. W., Teoh, J. Y. C., Chiu, P. K. F., & Ng, C. F. (2022). Oral antibiotics perturbation on gut microbiota after prostate biopsy. Frontiers in cellular and infection microbiology, 12, 959903. https://doi.org/10.3389/fcimb.2022.959903
 
-Bioproject Accession Number: PRJNA858302 
+## Data Provenance & Privacy:
+Data is available via Bioproject Accession Number PRJNA858302 
 No code for this project was developed by the authors of this paper. 
+There are no privacy constraints.
 
 ## Purpose:
 The purpose of this project was to test the reproducibility of a published gut microbiome study by developing code and generating results based on the information provided in the paper. This project aims to discover best practices of reproducilbility by reproducing methods and results as presented in the paper. In this project, I was able to develop a pipeline to generate similar results to those presented in the paper as well as generate "10 Simple Rules for Reproducible Research" from lessons learned and challenges encountered during this project.  
