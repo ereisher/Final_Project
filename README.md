@@ -4,7 +4,7 @@ This reproducibility project utilizes a publicly available dataset to reproduce 
 Li, J. K. M., Wang, L. L., Lau, B. S. Y., Tse, R. T. H., Cheng, C. K. L., Leung, S. C. H., Wong, C. Y. P., Tsui, S. K. W., Teoh, J. Y. C., Chiu, P. K. F., & Ng, C. F. (2022). Oral antibiotics perturbation on gut microbiota after prostate biopsy. Frontiers in cellular and infection microbiology, 12, 959903. https://doi.org/10.3389/fcimb.2022.959903
 
 ## Data Provenance & Privacy:
-Data is available via Bioproject Accession Number PRJNA858302 
+Data is available via Bioproject Accession Number PRJNA858302. 
 No code for this project was developed by the authors of this paper. 
 There are no privacy constraints.
 
