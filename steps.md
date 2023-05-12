@@ -7,7 +7,7 @@
     - Make a directory called 'qiime2' and make sure QIIME2 version 2022.2 is installed with all of the plugins listed in [Plugins](https://github.com/ereisher/Final_Project/blob/main/plugins.md). 
     - Bulid the manifest file (sample format is provided)
     - Use Silva-138-99-nb-classifier as the reference database
-    - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and silva database.
+    - Make sure these files are included in the 'qiime2' directory: metadata.tsv, manifest, and silva database (sample metadata format is provided).
     - Run demux.slurm
     - Run dada2.slurm
     - Run diversity.slurm
