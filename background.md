@@ -18,7 +18,7 @@ This leads to a need for reproducible research to occur.
 - QIIME2 was used for microbiome, alpha and beta diversities, and taxonomy analysis. LEfSe was used to visualize the differences in taxa between the 2 groups. ​
 - The researchers found that the alpha and beta diversities of the 2 groups were significantly different.
 ## Motivation
-The motivation for this project was to test if I was able to reproduce another's work and identify ways to help solve the Reproducibility Crisis. 
+The motivation for this project was to test if I was able to reproduce another's work by using resources discussed in a paper and identify practical ways to help increase reproducible reesarch in Bioinformatics. 
 ## Significance 
 This project is needed because reproducibility in science is necessary for validation, collaboration, and results that can benefit the population. Scientific results can lead to the advancement of health, directly impacting everyone. It is important to be able to reproduce results from studies to ensure appropriate dissemination of results. 
 ## Novelty
